@@ -20,3 +20,21 @@ table, th, td {
 th, td {
   padding: 10px;
 }
+
+.step-container{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 28px;
+  background-color: rgb(255, 253, 253);
+  color: gray;
+  opacity: 0.4;
+
+}
+
+.step-container .active-step{
+  display: block;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 145, 149);
+  opacity: 1;
+  font-weight: 600;
+}
